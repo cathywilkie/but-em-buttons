@@ -4,6 +4,10 @@ html {
   font-family: "Ubuntu Condensed", sans-serif;
 }
 
+.text {
+  text-shadow: 0 0 4px rgba(255, 255, 255, .7);
+}
+
 .icon-label {
   padding: .75em .4em .75em .75em;
 }
@@ -23,17 +27,17 @@ html {
 
 .btn-ghost {
   padding: .5em 0;
-  border: #b4fff4 solid 1.5px;
+  border: solid 1.5px;
+  border-color: #90ccc3;
   transition: all .2s linear;
   transform-origin: left top;
 }
 
 .btn-ghost:hover,
-.btn-ghost:active,
 .btn-ghost:focus {
   background-color: rgba(180, 255, 244, .2);
   color: #b4fff4;
-  border: #b4fff4 solid 1.5px;
+  border-color: #b4fff4;
 }
 
 .btn-ghost:hover .icon {
@@ -42,6 +46,11 @@ html {
 
 .bottom-btn {
   padding-top: .75em;
+  border-bottom: #90ccc3 solid 1.5px;
+  transition: all .2s linear;
+}
+
+.btn-ghost:hover .bottom-btn {
   border-bottom: #b4fff4 solid 1.5px;
 }
 
