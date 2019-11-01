@@ -8,21 +8,13 @@ html {
 
 }
 
-h1 {
-
-}
-
-p {
-
-}
-
 .btn {
-  color: #fff;
+  color: #b4fff4;
   text-decoration: none;
 }
 
 .btn-ghost {
-
+border: #b4fff4 solid 2px;
 }
 
 .btn-ghost:hover,
